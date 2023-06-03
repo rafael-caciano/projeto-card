@@ -1,0 +1,13 @@
+$layout-name: "l-main";
+
+.#{$layout-name}{
+    background-color: whitesmoke;
+    border-radius: 10px;
+    height: 432px;
+    width:768px;
+    padding: 60px;
+    position: relative;
+    display: flex;
+    box-shadow: 1px 1px 20px 3px rgba(0, 0, 0, 0.506) ;
+    margin: auto;
+}

@@ -6,6 +6,7 @@
 
 
 // ---------- @import: layout  ----------
+@import "./layout/l-main.scss";
 
 
 
@@ -14,10 +15,9 @@
 
 
 
-
-// ---------- @import: module ----------
-
-
+// ---------- @import: module/component ----------
+@import "./componentes/c-button.scss";
+@import "./componentes/c-card.scss";
 
 
 

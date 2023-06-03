@@ -1,0 +1,18 @@
+.c-button {
+  background-color: purple;
+  color: white;
+  border-radius: 30px;
+  display: inline-block;
+  max-width: 210px;
+  padding: 9px 15px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 90ms ease-in;
+}
+.c-button:hover {
+  background-color: rgb(134, 87, 134);
+  transition: all 90ms ease-out;
+}
+.c-button:active {
+  transform: translateY(2px);
+}/*# sourceMappingURL=c-button.css.map */
