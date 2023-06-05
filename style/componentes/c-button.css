@@ -15,4 +15,10 @@
 }
 .c-button:active {
   transform: translateY(2px);
+}
+.c-button--twitter {
+  background-color: rgb(160, 159, 159);
+}
+.c-button--twitter:hover {
+  background-color: lightgray;
 }/*# sourceMappingURL=c-button.css.map */
