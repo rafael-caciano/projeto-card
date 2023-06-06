@@ -17,8 +17,16 @@
   transform: translateY(2px);
 }
 .c-button--twitter {
-  background-color: rgb(160, 159, 159);
+  background-color: whitesmoke;
+  color: gray;
 }
 .c-button--twitter:hover {
+  background-color: lightgray;
+}
+.c-button--facebook {
+  background-color: whitesmoke;
+  color: gray;
+}
+.c-button--facebook:hover {
   background-color: lightgray;
 }/*# sourceMappingURL=c-button.css.map */

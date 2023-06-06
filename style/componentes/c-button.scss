@@ -20,10 +20,21 @@ $componentes-name: "c-button";
     }
 
     &--twitter{
-        background-color: rgb(160, 159, 159);
+        background-color: whitesmoke;
+        color: gray;
 
     }
     &--twitter:hover{
         background-color: lightgray;
     }
+
+    &--facebook{
+        background-color: whitesmoke;
+        color: gray;
+    }
+    &--facebook:hover{
+        background-color: lightgray;
+    }
+
+    
 }

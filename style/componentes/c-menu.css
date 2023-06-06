@@ -1,0 +1,27 @@
+.c-menu {
+  align-items: end;
+  bottom: 0;
+  display: flex;
+  height: 100%;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  right: 10px;
+  gap: 50px;
+  z-index: index 200;
+}
+.c-menu__img {
+  width: 27px;
+}
+.c-menu__img.is-active {
+  filter: invert(100%);
+}
+.c-menu__img:active {
+  transform: translateY(2px);
+}
+.c-menu__img--index {
+  position: absolute;
+  right: 0;
+  top: 10px;
+}/*# sourceMappingURL=c-menu.css.map */
