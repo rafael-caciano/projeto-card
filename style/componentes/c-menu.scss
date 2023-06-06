@@ -7,10 +7,12 @@ $componetes-name: "c-menu";
     height: 100%;
     list-style-type: none;
     margin: 0;
+    margin-right: 20px;
     padding: 0;
+    padding-bottom: 20px;
     position: absolute;
     right: 10px;
-    gap: 50px;
+    gap: 40px;
     z-index: index 200;
 
     &__img{
@@ -28,8 +30,9 @@ $componetes-name: "c-menu";
     &__img--index{
         position: absolute;
         right: 0;
-        top: 10px;
+        top: 40px;
     }
 
+   
 }
 

@@ -1,5 +1,5 @@
 .c-button {
-  background-color: purple;
+  background-color: rgb(20, 108, 224);
   color: white;
   border-radius: 30px;
   display: inline-block;
@@ -10,7 +10,7 @@
   transition: all 90ms ease-in;
 }
 .c-button:hover {
-  background-color: rgb(134, 87, 134);
+  background-color: rgb(84, 144, 222);
   transition: all 90ms ease-out;
 }
 .c-button:active {

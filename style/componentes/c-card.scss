@@ -11,6 +11,7 @@ $componentes-name: 'c-card';
     left: 0;
     padding: 30px;
     position: absolute;
+    transition: clip-path .5s ease-in;
     top: 0;
     width: 92.3%;
 
@@ -24,21 +25,42 @@ $componentes-name: 'c-card';
         font-size: 3em;
     }
 
+    &.is-active{
+        clip-path: circle(100%);
+        transition-delay: 0s;
+        z-index: z-index(defalt);
+    }
+
+    &:not(.is-active){
+        transition-delay: 1s;
+    }
+
     &__text{
         line-height: 1.2;
         margin-bottom: 30px;
     }
 
+    &--index{
+        background-color: white;
+        color: black;
+        clip-path: circle(132% at 724px 34px );
+        
+    }
+
     &--twitter {
         background-color: aqua;
+        clip-path: circle(0% at 587px 408px);
     }
+    
 
     &--facebook {
         background-color: rgb(0, 179, 255);
+        clip-path: circle(0% at 724px 392px);
     }
 
     &--instagram {
         background-color: #ed6162;
+        clip-path: circle(0% at 657px 392px);
 
     }
 }
